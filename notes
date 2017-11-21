@@ -1,0 +1,17 @@
+class Horse {
+  constructor(breed,age,country){
+    this.breed = breed
+    this.age = age
+    this.country = country
+  }
+
+  sayHello() {
+    if (this.country === 'France'){
+      console.log('hennir')
+    } else if (this.country === 'USA') {
+      console.log('neigh')
+    } else {
+      console.log('Hello!')
+    }
+  }
+}
